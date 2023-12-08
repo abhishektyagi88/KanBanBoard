@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+}
+
+:root {
+    --lightblue: #48dbfb;
+    --blossom: #ffda79;
+    --garden: #55E6C1;
+    --red: #ff5252;
+    --breeze: #55efc4;
+    --pink: #e84393;
+    --green: #44bd32;
+    --purple: #9b59b6;
+}
+
+.parentContainer {
+    height: 60px;
+    background-color: var(--lightblue);
+    display: flex;
+    gap: 80px;
+}
+
+.toolbox-cont {
+    height: 65%;
+    width: 25%;
+    background-color: var(--blossom);
+    margin-left: 150px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.action.color1 {
+    background-color: var(--pink);
+}
+
+.action.color2 {
+    background-color: var(--red);
+}
+
+.action.color3 {
+    background-color: var(--green);
+}
+
+.action.color4 {
+    background-color: var(--purple);
+}
+
+.button-cont {
+    height: 65%;
+    width: 10%;
+    margin-top: 10PX;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.action {
+    height: 60%;
+    width: 20%;
+    background-color: var(--red);
+}
+
+.action:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 15px;
+}
+
+.addbtn,
+.removebtn {
+    height: 100%;
+    width: 50%;
+    background-color: var(--blossom);
+    border: 2px solid darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.main-cont {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 10px;
+}
+
+.ticket-cont {
+    height: 200px;
+    width: 250px;
+    background-color: var(--breeze);
+    position: relative;
+    overflow: auto;
+}
+
+.lock_icon {
+    position: absolute;
+    top: 168px;
+    left: 218px;
+    font-size: 25px;
+}
+
+.ticketcolor {
+    height: 15%;
+    background-color: var(--green);
+}
+
+.modal-cont {
+    height: 350px;
+    width: 400px;
+    border: 2px solid black;
+    display: flex;
+    position: fixed;
+    left: 550px;
+    bottom: 250px;
+    display: none;
+
+}
+
+.text-cont {
+    height: 346px;
+    width: 70%;
+    font-size: 20px;
+
+    font-family: sans-serif;
+    resize: none;
+}
+
+.colorbar-cont {
+    height: 100%;
+    width: 30%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.color_modal {
+    height: 10%;
+    width: 60%;
+}
+
+.colorb1 {
+    background-color: var(--pink);
+}
+
+.colorb2 {
+    background-color: var(--red);
+}
+
+.colorb3 {
+    background-color: var(--green);
+}
+
+.colorb4 {
+    background-color: var(--purple);
+}
+
+.selected {
+    border: 5px solid yellow;
+}

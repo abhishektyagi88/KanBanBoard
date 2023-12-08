@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width,initial-scale =1.0">
+    <title>KANBAN BOARD | PROJECT</title>
+    <script src="https://kit.fontawesome.com/d9257d870d.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5396/5396913.png">
+    <link rel="stylesheet" href="Kanban.css">
+</head>
+
+<body>
+    <header>
+        <div class="parentContainer">
+            <div class="toolbox-cont">
+                <div class="action color1"></div>
+                <div class="action color2"></div>
+                <div class="action color3"></div>
+                <div class="action color4"></div>
+            </div>
+
+            <div class="button-cont">
+                <div class="addbtn">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="removebtn">
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main-cont">
+        <!-- <div class="ticket-cont">
+                  <div class="ticketcolor"></div>
+                  <div class="ticketID"></div>
+                  <div class="ticketext"></div>
+                  <i class="fa-solid fa-lock lock_icon"></i>
+            </div> -->
+    </main>
+
+    <div class="modal-cont">
+        <textarea class="text-cont" placeholder="Enter Your Task"></textarea>
+        <div class="colorbar-cont">
+            <div class="color_modal colorb1 selected" currcolor="colorb1"></div>
+            <div class="color_modal colorb2" currcolor="colorb2"></div>
+            <div class="color_modal colorb3" currcolor="colorb3"></div>
+            <div class="color_modal colorb4" currcolor="colorb4"></div>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/short-unique-id@4.4.4/dist/short-unique-id.min.js"></script>
+    <script src="Kanban.js"></script>
+</body>
+
+</html>
+
+<!-- <i class="fa-solid fa-lock-open"></i> -->
