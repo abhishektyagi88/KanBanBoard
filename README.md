@@ -7,5 +7,5 @@
 # Contributing
 Contributions to this project are highly encouraged! If you'd like to contribute by fixing bugs, adding features, or improving the overall codebase, please feel free to fork this repository, make your changes, and submit a pull request. We welcome your contributions and ideas to help make this KanBan Board even better.
 
-The Home Page
+# The Home Page
 ![4](https://github.com/abhishektyagi88/KanBanBoard/assets/146976779/6d5c909a-59c5-40f1-bb1c-af641048c2b7)
